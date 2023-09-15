@@ -9,7 +9,14 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
-
+**/mvnw
+**/mvnw.cmd
+**/.mvn
+# 编译后的目录不提交
+**/target/
+.idea
+# 忽略子模块的 gitignore
+**/.gitignore
 # Eclipse m2e generated files
 # Eclipse Core
 .project
